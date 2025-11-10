@@ -1,0 +1,221 @@
+# ============================================
+# Urmi Browser .gitignore
+# ============================================
+
+# ====================
+# Generated Files
+# ====================
+
+# Node.js dependencies (GENERATED - run npm install)
+node_modules/
+jspm_packages/
+
+# Build output (GENERATED - run npm run build)
+dist/
+release/
+out/
+build/
+*.app
+*.exe
+*.dmg
+*.deb
+*.rpm
+*.AppImage
+
+# Python virtual environment (GENERATED - run py -m venv venv)
+venv/
+env/
+ENV/
+.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ====================
+# Dependencies & Caches
+# ====================
+
+# npm/yarn
+.npm
+.yarn
+.yarn-integrity
+yarn.lock
+package-lock.json
+.pnp.*
+
+# Python packages
+*.egg
+*.egg-info/
+dist-python/
+build-python/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+
+# ====================
+# IDE & Editor Files
+# ====================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# OS Files
+# ====================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ====================
+# Logs & Debugging
+# ====================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ====================
+# Test Coverage
+# ====================
+
+coverage/
+*.lcov
+.nyc_output
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ====================
+# Environment & Secrets
+# ====================
+
+# Environment variables (NEVER commit)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+
+# API keys and secrets
+secrets.json
+*.pem
+*.key
+*.cert
+
+# ====================
+# User Data & Runtime
+# ====================
+
+# User-specific data
+user-data/
+bookmarks.json
+history.json
+cookies.json
+session-data/
+
+# Runtime data
+*.sqlite
+*.sqlite3
+*.db
+
+# ====================
+# External Repositories
+# ====================
+
+# TinyRecursiveModels should be a git submodule
+# If you want to clone it directly, add:
+TinyRecursiveModels/
+
+# ====================
+# Temporary Files
+# ====================
+
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.old
+
+# ====================
+# Build Tools
+# ====================
+
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.fusebox/
+.dynamodb/
+.serverless/
+.tern-port
+
+# ====================
+# Optional: Uncomment if needed
+# ====================
+
+# Electron builder
+# electron-builder.yml
+
+# macOS
+# .AppleDouble
+# .LSOverride
+
+# Windows
+# $RECYCLE.BIN/
+
+# Linux
+# *~
+# .directory
+
+# ====================
+# DO COMMIT THESE FILES:
+# ====================
+# ✓ package.json
+# ✓ main.js
+# ✓ preload.js
+# ✓ renderer.js
+# ✓ llm-service.js
+# ✓ index.html
+# ✓ styles.css
+# ✓ README.md
+# ✓ .gitignore (this file)
+# ✓ .env.example
+# ✓ LICENSE
+# ✓ All documentation files
+# ✓ Setup scripts (.ps1, .py)
+# ✓ assets/ (icons, images)
